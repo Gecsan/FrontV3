@@ -12,7 +12,7 @@ const Lodable = (Component: any) => (props: JSX.IntrinsicAttributes) =>
     </Suspense>
   );
 
-const HomePage = Lodable(lazy(() => import("../pages/HomePage")));
+const HomePage = Lodable(lazy(() => import("../pages/Layout")));
 
 const Login = Lodable(lazy(() => import("../auth/Login")));
 const Register = Lodable(lazy(() => import("../auth/Register")));
